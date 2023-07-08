@@ -229,3 +229,16 @@ section {
     opacity: .84;
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6rem;
+}
+
+.about img {
+    height: 100px;
+}
